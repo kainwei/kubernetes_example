@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: spark-master
-          image: gcr.io/google_containers/spark:1.5.2_v1
+          image: kainvey/spark_for_zeppelin:v0.1_spark_2.4.5
           command: ["/start-master"]
           ports:
             - containerPort: 7077
